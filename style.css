@@ -4,6 +4,7 @@ body {
   color: #333;
   text-align: center;
   margin-top: 50px;
+  transition: background-color 0.5s;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
 p {
   font-size: 18px;
 }
+
 .imagen {
   width: 300px;
   height: 200px;
@@ -24,6 +26,7 @@ p {
   background-color: #007acc;
   color: white;
   padding: 10px 20px;
+  margin: 5px;
   border: none;
   border-radius: 8px;
   font-size: 16px;
@@ -33,4 +36,19 @@ p {
 
 .boton:hover {
   background-color: #005f99;
+}
+
+.mensaje {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #009900;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 10px;
 }
